@@ -1,4 +1,4 @@
-from turtle import Turtle, Screen
+from turtle import Screen
 from paddle import Paddle
 
 # Create the screen
@@ -8,7 +8,6 @@ screen.bgcolor("black")
 screen.title("Pong Game")
 screen.tracer(0)
 
-# Create and move a paddle
 right_paddle = Paddle((350, 0))
 left_paddle = Paddle((-350, 0))
 
